@@ -73,3 +73,15 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+/* make stats containers flex and align items */
+.stats-container {
+  display: flex;
+  align-items: center;   
+}
+
+/*hover effect on cards*/
+.stats-card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 30px lightblue;
+}
